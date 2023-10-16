@@ -1,0 +1,12 @@
+#PP to find the union,intersection, difference of two lists
+
+A={10,11,12,13,14,15,16,17}
+B={15,16,17,18,19,20,21,22}
+
+C=A.union(B)
+D=A.intersection(B)
+E=A.difference(B)
+
+print("Union of A and B is :", C)
+print("intersection of A and B is : ", D)
+print("difference of A and B is : ", E)
