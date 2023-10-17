@@ -10,3 +10,10 @@ E=A.difference(B)
 print("Union of A and B is :", C)
 print("intersection of A and B is : ", D)
 print("difference of A and B is : ", E)
+---------------------------------------------------------
+##PP for split operator
+name=input("enter the full name: ")
+FN=name.split('@')[0]
+LN=name.split('@')[1]
+print('firstname:', FN)
+print('lastname:',LN)
