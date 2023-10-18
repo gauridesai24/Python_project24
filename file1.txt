@@ -17,3 +17,12 @@ FN=name.split('@')[0]
 LN=name.split('@')[1]
 print('firstname:', FN)
 print('lastname:',LN)
+
+----------------------------------------------
+##Example for positional Argument
+def emp_details(id, name, city, salary):
+    print('ID', id)
+    print('Name', name)
+    print('City', city)
+    print('Salary', salary)
+    
